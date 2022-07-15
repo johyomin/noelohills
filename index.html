@@ -18,6 +18,13 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="manifest" href="images/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -53,6 +60,21 @@
 </head>
 
 <body>
+  <!-- 안내창 -->
+  <div class="modal-wrap">
+    <div class="modal-main">
+      <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+      <h1>클론코딩</h1>
+      <p>
+        &middot; 이 사이트는 <b>스터디용</b>으로 제작되었으며 리소스는 <b>원저작자</b>에게 있습니다.<br>
+        &middot; 해당 사이트 관련 문제사항 발생시 즉시 삭제하겠습니다.<br>
+        &middot; 문의 사항이 있으실 경우
+        <strong> [scnly222@naver.com] </strong> 으로 연락부탁드립니다.<br>
+        &middot; 본 사이트는 Chrome 에 최적화되어 있습니다.
+      </p>
+      <button class="modal-close"></button>
+    </div>
+  </div>
   <!-- 모바일 메뉴 -->
   <div class="mb-div">
     <div class="mb-bg">
@@ -106,7 +128,7 @@
               <li><a href="">MEMBERS</a></li>
             </ul>
           </li>
-        </ul>  
+        </ul>
       </div>
     </div>
   </div>
@@ -145,7 +167,7 @@
       <div class="inner">
 
         <button class="mb-bt"></button>
-        
+
         <a href="#" class="logo"></a>
         <div class="gnb">
 
@@ -203,13 +225,13 @@
                 <i class="tooltip">장바구니</i>
               </a>
             </li>
-            <li> 
+            <li>
               <a href="#" class="member-mypage">
                 <i class="tooltip">마이페이지</i>
               </a>
             </li>
             <li>
-              <a href="#" class="member-login">                
+              <a href="#" class="member-login">
                 <i class="tooltip">로그인</i>
               </a>
             </li>
@@ -343,51 +365,51 @@
     <section class="sitemap">
       <div class="inner">
 
-          <ul class="sitemap-menu clearfix">
-            <li>
-              <a href="">SHOP</a>
-              <ul class="sitemap-submenu">
-                <li><a href="">ALL PRODUCT</a></li>
-                <li><a href="">NEWBORN</a></li>
-                <li><a href="">BABY</a></li>
-                <li><a href="">FAMILY</a></li>
-                <li><a href="">BATH GOODS</a></li>
-                <li><a href="">PRESENTS</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">ABOUT</a>
-              <ul class="sitemap-submenu">
-                <li><a href="">BRAND STORY</a></li>
-                <li><a href="">WHO WE ARE</a></li>
-                <li><a href="">MAKE A WISH</a></li>
-                <li><a href="">PRESS</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">TRUST</a>
-              <ul class="sitemap-submenu">
-                <li><a href="">FOOD GRADE</a></li>
-                <li><a href="">PENTACERA™</a></li>
-                <li><a href="">BABY SKINCARE</a></li>
-                <li><a href="">CERTIFICATIONS</a></li>
-                <li><a href="">INGREDIENT</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="">STOCKISTS</a>
-            </li>
-            <li>
-              <a href="">REVIEW</a>
-            </li>
-            <li>
-              <a href="">BENEFITS</a>
-              <ul class="sitemap-submenu">
-                <li><a href="">EVENTS</a></li>
-                <li><a href="">MEMBERS</a></li>
-              </ul>
-            </li>
-          </ul>
+        <ul class="sitemap-menu clearfix">
+          <li>
+            <a href="">SHOP</a>
+            <ul class="sitemap-submenu">
+              <li><a href="">ALL PRODUCT</a></li>
+              <li><a href="">NEWBORN</a></li>
+              <li><a href="">BABY</a></li>
+              <li><a href="">FAMILY</a></li>
+              <li><a href="">BATH GOODS</a></li>
+              <li><a href="">PRESENTS</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">ABOUT</a>
+            <ul class="sitemap-submenu">
+              <li><a href="">BRAND STORY</a></li>
+              <li><a href="">WHO WE ARE</a></li>
+              <li><a href="">MAKE A WISH</a></li>
+              <li><a href="">PRESS</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">TRUST</a>
+            <ul class="sitemap-submenu">
+              <li><a href="">FOOD GRADE</a></li>
+              <li><a href="">PENTACERA™</a></li>
+              <li><a href="">BABY SKINCARE</a></li>
+              <li><a href="">CERTIFICATIONS</a></li>
+              <li><a href="">INGREDIENT</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">STOCKISTS</a>
+          </li>
+          <li>
+            <a href="">REVIEW</a>
+          </li>
+          <li>
+            <a href="">BENEFITS</a>
+            <ul class="sitemap-submenu">
+              <li><a href="">EVENTS</a></li>
+              <li><a href="">MEMBERS</a></li>
+            </ul>
+          </li>
+        </ul>
 
       </div>
     </section>
