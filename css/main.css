@@ -75,6 +75,7 @@ body {
   right: 37%;
   font-size: 130px;
   color: rgba(250, 19, 19, 0.1);
+  z-index: -9;
 }
 
 .modal-main {
@@ -118,6 +119,7 @@ body {
   font-size: 17px;
   padding: 2px;
   line-height: 16px;
+  color: #000 !important;
 }
 
 .modal-close {
